@@ -81,7 +81,8 @@ fun TrustTime(currentTimeMillisWithApplicationInitialization: Long, modifier: Mo
 }
 
 /**
- * This implementation uses dependency injection, with the initialization occurring in the Application class (allowing you to access the time throughout the entire application).
+ * This implementation uses Dependency Injection, with the initialization occurring in the Application class (allowing you to access the time throughout the entire application).
+ * Note: Additionally, if you want to use dependency injection with initialization inside the activity, you can copy the setup from the Application class and call directly "trustedTimeClient".
  * */
 @Composable
 fun TrustTimeFromApplicationWithDependencyInjection(
