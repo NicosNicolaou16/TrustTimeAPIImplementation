@@ -3,7 +3,7 @@ package com.nicos.trusttimeapiimplementation
 import android.app.Application
 import android.util.Log
 import com.google.android.gms.time.TrustedTimeClient
-import com.nicos.trusttimeapiimplementation.trust_time_api_example.interfaces.TrustedTimeClientAccessor
+import com.nicos.trusttimeapiimplementation.trust_time_api_di.interfaces.TrustedTimeClientAccessor
 import dagger.hilt.android.HiltAndroidApp
 import javax.inject.Inject
 

@@ -100,15 +100,19 @@ fun TrustTimeFromApplicationWithDependencyInjection(
 }
 
 /**
- * This implementation is a local initialization without using dependency injection.
+ * This implementation is a local initialization without using Dependency Injection.
  * */
 @Composable
 fun TrustTimeWithoutDependencyInjection(
     modifier: Modifier
 ) {
+    // Get Context
     val context = LocalContext.current
 
+    // This variable stores the instance of the TrustedTimeClient.
     var trustedTimeClient: TrustedTimeClient? = null
+
+    // Callback to get instance
     TrustedTime.createClient(context).addOnCompleteListener {
         if (it.isSuccessful) {
             trustedTimeClient = it.result
@@ -119,6 +123,7 @@ fun TrustTimeWithoutDependencyInjection(
 
     var currentTimeMillisWithoutDependenciesInjection by remember { mutableLongStateOf(0L) }
 
+    // Get the date/time in milliseconds.
     currentTimeMillisWithoutDependenciesInjection =
         trustedTimeClient?.computeCurrentUnixEpochMillis() ?: System.currentTimeMillis()
 
