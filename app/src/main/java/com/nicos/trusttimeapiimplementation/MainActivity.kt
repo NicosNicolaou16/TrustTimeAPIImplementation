@@ -80,7 +80,9 @@ fun TrustTime(currentTimeMillisWithApplicationInitialization: Long, modifier: Mo
     }
 }
 
-
+/**
+ * This implementation uses dependency injection, with the initialization occurring in the Application class (allowing you to access the time throughout the entire application).
+ * */
 @Composable
 fun TrustTimeFromApplicationWithDependencyInjection(
     currentTimeMillisWithApplicationInitialization: Long,
@@ -96,15 +98,15 @@ fun TrustTimeFromApplicationWithDependencyInjection(
     )
 }
 
+/**
+ * This implementation is a local initialization without using dependency injection.
+ * */
 @Composable
 fun TrustTimeWithoutDependencyInjection(
     modifier: Modifier
 ) {
     val context = LocalContext.current
 
-    /**
-     * This implementation is a local initialization without using dependency injection.
-     * */
     var trustedTimeClient: TrustedTimeClient? = null
     TrustedTime.createClient(context).addOnCompleteListener {
         if (it.isSuccessful) {
