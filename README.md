@@ -6,7 +6,7 @@ looking to understand the core concept or implement it
 yourself, this guide will walk you through each method step by step.
 
 > [!IMPORTANT]  
-> Check my article :point_right: [Trusted Time API Implementation - Medium]() :point_left: <br />
+> Check my article :point_right: [Trusted Time API Implementation - Medium](https://medium.com/@nicosnicolaou/trusted-time-api-implementation-7f3c6c14809c) :point_left: <br />
 
 # Versioning
 
