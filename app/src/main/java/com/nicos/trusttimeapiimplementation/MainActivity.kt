@@ -16,6 +16,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
@@ -68,7 +69,9 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun TrustTime(currentTimeMillisWithApplicationInitialization: Long, modifier: Modifier = Modifier) {
     Column(
-        verticalArrangement = Arrangement.Center
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally,
+        //modifier = modifier.fillMaxSize()
     ) {
         TrustTimeFromApplicationWithDependencyInjection(
             currentTimeMillisWithApplicationInitialization = currentTimeMillisWithApplicationInitialization,
