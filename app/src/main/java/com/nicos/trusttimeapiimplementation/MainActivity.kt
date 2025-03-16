@@ -73,6 +73,7 @@ fun TrustTime(currentTimeMillisWithApplicationInitialization: Long, modifier: Mo
         horizontalAlignment = Alignment.CenterHorizontally,
         modifier = modifier.fillMaxSize()
     ) {
+        Text("Trust Time With Dependency Injection:")
         TrustTimeFromApplicationWithDependencyInjection(
             currentTimeMillisWithApplicationInitialization = currentTimeMillisWithApplicationInitialization,
             modifier = modifier
@@ -98,7 +99,6 @@ fun TrustTimeFromApplicationWithDependencyInjection(
     ).format(Date(currentTimeMillisWithApplicationInitialization))
     Text(
         text = dateAndTime,
-        modifier = modifier
     )
 }
 
