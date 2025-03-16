@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TrustTimeAPIImplementation</string>
+    <string name="trust_time_with_dependency_injection">Trust Time with Dependency Injection:</string>
+    <string name="trust_time_without_dependency_injection">Trust Time without Dependency Injection:</string>
 </resources>
