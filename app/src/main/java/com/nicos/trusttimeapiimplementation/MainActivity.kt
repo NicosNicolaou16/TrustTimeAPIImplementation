@@ -71,7 +71,7 @@ fun TrustTime(currentTimeMillisWithApplicationInitialization: Long, modifier: Mo
     Column(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,
-        //modifier = modifier.fillMaxSize()
+        modifier = modifier.fillMaxSize()
     ) {
         TrustTimeFromApplicationWithDependencyInjection(
             currentTimeMillisWithApplicationInitialization = currentTimeMillisWithApplicationInitialization,
