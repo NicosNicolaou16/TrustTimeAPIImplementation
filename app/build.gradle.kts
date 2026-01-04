@@ -54,6 +54,8 @@ dependencies {
     implementation(libs.dagger.android)
     ksp(libs.dagger.compiler)
     ksp(libs.hilt.compiler)
+    // Will remove later - temporary added
+    ksp(libs.kotlin.metadata.jvm)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
