@@ -34,6 +34,8 @@ dagger-compiler = { group = "com.google.dagger", name = "hilt-compiler", version
 hilt-compiler = { group = "androidx.hilt", name = "hilt-compiler", version.ref = "hiltCompilerVersion" }
 # Trust Time API
 trust-time = { group = "com.google.android.gms", name = "play-services-time", version.ref = "trustTimeVersion" }
+# Will remove later - temporary added
+kotlin-metadata-jvm = { module = "org.jetbrains.kotlin:kotlin-metadata-jvm", version.ref = "kotlin" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
