@@ -42,6 +42,15 @@ This repository explores the implementation of Google's new **TrustedTime API**.
 
 - **Official Announcement:** [Introducing a reliable approach to time-keeping for apps](https://android-developers.googleblog.com/2025/02/trustedtime-api-introducing-reliable-approach-to-time-keeping-for-apps.html)
 
+## ⭐ Stargazers
+
+If you enjoy this project, please give it a star!
+Check out all the stargazers
+here: [Stargazers on GitHub](https://github.com/NicosNicolaou16/TrustTimeAPIImplementation/stargazers)
+
+## 🙏 Support & Contributions
+
+This library is actively maintained. Feedback, bug reports, and feature requests are welcome! Please feel free to **open an issue** or submit a **pull request**.
 
 This repository explores the implementation of Google's new Trust Time API. We provide two
 approaches for integrating the API: one with Dependency Injection and one without. Whether you're
