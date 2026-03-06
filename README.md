@@ -51,22 +51,3 @@ here: [Stargazers on GitHub](https://github.com/NicosNicolaou16/TrustTimeAPIImpl
 ## 🙏 Support & Contributions
 
 This library is actively maintained. Feedback, bug reports, and feature requests are welcome! Please feel free to **open an issue** or submit a **pull request**.
-
-This repository explores the implementation of Google's new Trust Time API. We provide two
-approaches for integrating the API: one with Dependency Injection and one without. Whether you're
-looking to understand the core concept or implement it
-yourself, this guide will walk you through each method step by step.
-
-> [!IMPORTANT]  
-> Check my article :point_right: [Trusted Time API Implementation - Medium](https://medium.com/@nicosnicolaou/trusted-time-api-implementation-7f3c6c14809c) :point_left: <br />
-
-# Versioning
-
-Target SDK version: 36 <br />
-Minimum SDK version: 29 <br />
-Kotlin version: 2.3.10 <br />
-Gradle version: 9.1.0 <br />
-
-# References
-
-https://android-developers.googleblog.com/2025/02/trustedtime-api-introducing-reliable-approach-to-time-keeping-for-apps.html
