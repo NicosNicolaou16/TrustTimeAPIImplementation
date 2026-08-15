@@ -37,6 +37,7 @@ This repository explores the implementation of Google's new **TrustedTime API**.
 - **Minimum SDK:** `29`
 - **Kotlin Version:** `2.4.10`
 - **Gradle Version:** `9.3.1`
+- **Trust Time Version:** `16.0.1`
 
 ## 📚 References
 
